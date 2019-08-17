@@ -17,3 +17,11 @@
                 let x = document.getElementsByTagName('head')[0];
                 x.appendChild(s);
             }
+
+
+//example usage:
+            //for remote links;  
+            lazyScripts('js','https://cdn.jsdelivr.net/npm/vue');
+
+            //for local path;
+            lazyScripts('js','vue.min.js','/assets/js/');
